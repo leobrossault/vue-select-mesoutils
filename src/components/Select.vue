@@ -503,6 +503,9 @@
     },
 
     watch: {
+      search(val) {
+        console.log(val);
+      },
       /**
        * When the value prop changes, update
              * the internal mutableValue.
